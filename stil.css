@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #b5babd;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f4f4f4;
+}
+
+.hizala {
+    width: 800px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #2139a1;
+    border-bottom: 4px solid #af1b1b;
+    padding: 24px 0px;
+}
+
+#logo {
+    color: #f4f4f4;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#logo span {
+    color: #af1b1b;
+}
+
+header .hizala {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#siteBaslik {
+    background: url(resim/nba-1.jpg);
+    color: black;
+    background-position: center;
+}
+
+section#siteBaslik .hizala {
+    padding: 120px 0px;
+    text-align: center;
+}
+
+section#siteBaslik .hizala h1 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+section#siteBaslik .hizala p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+section#aboneOl {
+    background-color: #2139a1;
+    border-bottom: 4px solid #af1b1b;
+    border-top: 4px solid #af1b1b;
+    padding: 24px 0px;
+    color: #f4f4f4;
+}
+
+section#aboneOl .hizala {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#aboneOl form input[type="email"] {
+    padding: 8px;
+    outline: none;
+    height: 36px;
+}
+
+section#aboneOl form input[type="submit"] {
+    background-color: #af1b1b;
+    padding: 8px;
+    color: #f4f4f4;
+    border: none;
+    height: 36px;
+}
+
+section#hizmetler .hizala {
+    display: flex;
+    padding: 36px 0px;
+}
+
+section#hizmetler .hizala .hizmet {
+    text-align: center;
+}
+
+section#hizmetler .hizala .hizmet h3 {
+    margin: 12px 0px;
+}
+
+section#hizmetler .hizala .hizmet img {
+    width: 64px;
+}
+
+section#hizmetler .hizala .hizmet p {
+    font-size: small;
+}
+
+footer {
+    background-color: #2139a1;
+    padding: 20px 0px;
+    text-align: center;
+    color: #f4f4f4;
+    font-size: small;
+    margin-top: 16px;
+}
+
+
+/* Hakkımda sayfasından */
+
+
+/* sayfa genel */
+
+#sayfaGenel {
+    min-height: 100vh;
+}
+
+#altBaslik {
+    text-align: center;
+    padding: 40px 0px;
+    background: linear-gradient(#2139a1, #f4f4f4);
+    color: #f4f4f4;
+}
+
+#altBaslik h1 {
+    text-shadow: 4px 4px 4px black;
+}
+
+section#sayfaGenel p {
+    text-align: justify;
+    margin-bottom: 12px;
+}
+
+section#sayfaGenel img {
+    float: left;
+}
+
+section#sayfaGenel img.sag {
+    float: right;
+}
+
+section#sayfaGenel h2,
+section#sayfaGenel h3 {
+    margin-top: 36px;
+    margin-bottom: 16px;
+    border-left: 20px solid #35424a;
+    padding-left: 20px;
+    border-bottom: 4px solid #35424a;
+}
+
+section#sayfaGenel ul,
+section#sayfaGenel ol {
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+
+section#sayfaGenel table,
+section#sayfaGenel td {
+    border: 4px solid #35424a;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 4px;
+}
+
+
+/* İletişim sayfası */
+
+fieldset {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 4px;
+    border: 1px solid #2139a1;
+    border-radius: 12px;
+}
+
+legend {
+    background-color: #2139a1;
+    color: #f4f4f4;
+    padding: 4px;
+    border: 2px solid #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.form-grup {
+    margin: 8px 0px;
+}
+
+.form-grup span {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 4px;
+}
+
+input {
+    padding: 4px;
+}
+
+textarea {
+    padding: 4px;
+    outline: none;
+    color: #2139a1;
+}
+
+input[ type="submit"],
+input[ type="reset"] {
+    border: 2px solid #f4f4f4;
+    border-radius: 4px;
+    background-color: #2139a1;
+    color: #f4f4f4;
+    padding: 8px;
+}
+
+input [ type="submit"]:hover,
+input [ type="reset"]:hover {
+    border: 2px solid #35424a;
+}
+
+.ortala {
+    text-align: center;
+}
+
+::selection {
+    background-color: #2139a1;
+    color: #f4f4f4;
+}

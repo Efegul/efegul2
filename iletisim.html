@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stil.css" />
+</head>
+
+<body>
+    <header>
+        <div class="hizala">
+            <div id="logo"><span>Voleybol </span>Sultanlar Ligi</div>
+            <!-- #logo -->
+
+            <nav>
+                <a href="index.html">Anasayfa</a>
+                <a href="hakkimda.html">Voleybol Bilgileri</a>
+                <a href="iletisim.html" class="aktif">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="altBaslik">
+        <div class="hizala">
+            <h1>İletişim Sayfası</h1>
+        </div>
+    </section>
+
+    <section id="sayfaGenel">
+        <div class="hizala">
+            <div>Bizimle Voleybol hakkındaki görüşlerinizi paylaşabilirsiniz.</div>
+
+            <form action="" method="get">
+                <fieldset>
+                    <legend>İletişim Formu</legend>
+                    <div class="form-grup">
+                        <span> Adınız: </span>
+                        <input type="text" name="ad" placeholder="isminizi giriniz." />
+                    </div>
+                    <div class="form-grup">
+                        <span> Mailiniz: </span>
+                        <input type="email" name="mail" placeholder="mailinizi giriniz." />
+                    </div>
+                    <div class="form-grup">
+                        <span> Şifre: </span>
+                        <input type="password" name="sifre" placeholder="şifrenizi giriniz." />
+                    </div>
+                    <div class="form-grup">
+                        <span> Resminiz: </span>
+                        <input type="file" name="resim" placeholder="resminizi giriniz." />
+                    </div>
+                    <div class="form-grup">
+                        <span> Şehir Seçiniz: </span>
+                        <select name="sehir">
+              <option value="34">İstanbul</option>
+              <option value="35">İzmir</option>
+              <option value="07">Antalya</option>
+              <option value="06">Ankara</option>
+              <option value="16">Bursa</option>
+              <option value="00">Diğer</option>
+            </select>
+                    </div>
+                    <div class="form-grup">
+                        <span> Cinsiyetiniz: </span>
+                        <input type="radio" value="Bay" name="cins" id="r1" checked/> <label for="r1">Bay</label>
+                        <input type="radio" value="Bayan" name="cins" id="r2" /> <label for="r2">Bayan</label>
+                    </div>
+                    <div class="form-grup">
+                        <span> Voleybolcu: </span>
+                        <input type="checkbox" value="Kübra" name="hobi" id="c1" /> <label for="c1">Kübra</label>
+                        <input type="checkbox" value="Polina" name="hobi" id="c2" /> <label for="c2">Polina</label>
+                        <input type="checkbox" value="Vargas" name="hobi" id="c3" /> <label for="c3">Vargas</label>
+                    </div>
+                    <div class="form-grup">
+                        <span> Mesajınız: </span>
+                        <textarea name="mesaj" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-grup">
+                        <input type="submit" value="Gönder">
+                        <input type="Reset" value="Temizle">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <!--.hizala-->
+    </section>
+
+    <footer>
+        <div class="hizala"><strong><ins>Voleybol Sultanlar Ligi 2023</ins></strong></div>
+    </footer>
+</body>
+
+</html>
